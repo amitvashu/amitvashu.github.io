@@ -1,0 +1,27 @@
+{
+  "name": "amitvashu-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio of Amit Kumar. Based on the devfolio template by Mark Macneil (MIT): https://github.com/mmacneil/devfolio",
+  "main": "webpack.config.js",
+  "repository": "https://github.com/amitvashu/amitvashu.github.io",
+  "author": "Amit Kumar",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "bulma": "^0.9.3",
+    "css-loader": "^6.3.0",
+    "css-minimizer-webpack-plugin": "^3.0.2",
+    "mini-css-extract-plugin": "^2.3.0",
+    "sass": "^1.83.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "flickity": "^2.2.2",
+    "flickity-imagesloaded": "^2.0.0"
+  }
+}
